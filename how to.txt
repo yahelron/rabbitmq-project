@@ -1,0 +1,5 @@
+Producer:
+python producer.py -p 5672 -s rabbitmq_server_ip -m "my message" -r 100
+
+Consumer:
+python rabbitmq_recive.py  -s rabbitmq_server_ip
